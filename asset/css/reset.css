@@ -1,0 +1,74 @@
+/* Reset CSS */
+
+/* Loại bỏ khoảng cách mặc định của margin và padding */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Loại bỏ các đường viền mặc định */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Đặt lại font mặc định cho tất cả các phần tử */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Loại bỏ mặc định danh sách không có thứ tự */
+ul, ol {
+    list-style: none;
+}
+
+/* Thiết lập lại bảng biểu */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/* Đảm bảo hình ảnh không vượt quá container */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Đặt lại cỡ chữ và cách hiển thị cho các phần tử tiêu đề */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    margin: 0;
+}
+
+/* Đảm bảo các phần tử form có kiểu hiển thị thống nhất */
+input, textarea, button {
+    outline: none;
+    border: 1px solid #ccc;
+    font-family: inherit;
+    font-size: inherit;
+}
+
+/* Đặt lại khoảng cách giữa các phần tử */
+body, html {
+    height: 100%;
+}
+
+/* Loại bỏ khoảng cách giữa các phần tử inline-block */
+iframe {
+    border: none;
+}
+
+/* Đảm bảo các phần tử khối không có khoảng cách mặc định */
+blockquote {
+    margin: 0;
+}
+
+/* Đảm bảo thẻ code và pre không có khoảng cách mặc định */
+code, pre {
+    margin: 0;
+}
