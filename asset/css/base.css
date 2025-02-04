@@ -1,0 +1,25 @@
+/* Base Styles */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+:root{
+    --color-one:#FF8484;
+    --color-two:#FAE7DA;
+    --color-text:#232323;
+    --bg-1:#DCE8EB;
+    --bg-2:#efefef;
+
+
+    --font:"DM Sans", sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: var(--font);
+}
+.container{
+    width: 100%;
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
